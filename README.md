@@ -38,7 +38,7 @@ git clone -b dev https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git th
 
 在Hexo配置文件，修改```theme```为```Acrylic```
 
-***区分大小写***
+**区分大小写**
 
 ```yaml
 theme: Acrylic
