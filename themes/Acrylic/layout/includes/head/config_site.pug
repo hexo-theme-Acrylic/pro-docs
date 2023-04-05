@@ -1,0 +1,25 @@
+-
+  const titleVal = pageTitle.replace(/'/ig,"\\'")
+
+  let isHighlightShrink = false
+
+  var showToc = false
+  if (theme.aside.enable && page.aside !== false) {
+    let tocEnable = false
+    if (is_post()) {
+      tocEnable = true
+    }
+    const pageToc = page.toc === true || page.toc === false ? page.toc : tocEnable
+    showToc = pageToc && (toc(page.content) !== '' || page.encrypt == true )
+  }
+-
+
+script#config-diff.
+  var GLOBAL_CONFIG_SITE = {
+    title: '!{titleVal}',
+    isPost: !{is_post()},
+    isHome: !{is_home()},
+    isHighlightShrink: !{isHighlightShrink},
+    isToc: !{showToc},
+    postUpdate: '!{full_date(page.updated)}'
+  }

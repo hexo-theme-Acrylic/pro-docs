@@ -1,0 +1,29 @@
+extends includes/layout.pug
+
+block content
+  div
+    #post
+      //- if top_img === false
+      //-   include includes/header/post-info.pug
+      
+      article#article-container.post-content!=page.content
+      
+      //- ptool
+      if theme.ptool.enable
+        include includes/third-party/ptool/index.pug
+      
+      //- ad
+      if theme.ad && theme.ad.post
+        .ads-wrap!=theme.ad.post
+      
+      include includes/post/post-copyright.pug
+      
+      if theme.post_pagination
+        include includes/pagination.pug
+      
+      if theme.related_post && theme.related_post.enable
+        != related_posts(page,site.posts)
+
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})

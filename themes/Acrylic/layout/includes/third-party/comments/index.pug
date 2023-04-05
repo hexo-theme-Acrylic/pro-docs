@@ -1,0 +1,31 @@
+- let defaultComment = theme.comments.use[0]
+hr
+#post-comment
+  .comment-head
+    .comment-headline
+      i.fas.fa-message.fa-fw
+      span  &#x8BC4;&#x8BBA;
+    .comment-randomInfo
+      a(onclick='heo.addRandomCommentInfo()' href='javascript:void(0)' rel='external nofollow' data-pjax-state='external') &#x533F;&#x540D;&#x8BC4;&#x8BBA;
+    .comment-privacy
+      a(href='/privacy/' data-pjax-state='') &#x9690;&#x79C1;&#x653F;&#x7B56;
+    #comment-tips.comment-tips
+      span ✅ 你无需删除空行，直接评论以获取最佳展示效果
+
+    if theme.comments.use.length > 1
+      #comment-switch
+        span.first-comment=defaultComment
+        span.switch-btn
+        span.second-comment=theme.comments.use[1]
+
+
+  .comment-wrap
+    each name in theme.comments.use
+      div
+        case name
+          when 'Twikoo'
+            #twikoo-wrap
+          when 'Waline'
+            #waline-wrap
+          when 'Artalk'
+            #artalk-wrap
