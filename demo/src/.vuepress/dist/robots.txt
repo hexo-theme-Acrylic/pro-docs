@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://acrylic.gtwxxh.cn/sitemap.xml
