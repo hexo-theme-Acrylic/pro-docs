@@ -22,9 +22,9 @@ export const zhNavbar = navbar([
   //     },
   //   ],
   // },
-  {
-    text: "Demo",
-    icon: "view",
-    link: "https://pro.acrylic.org.cn/",
-  },
+  // {
+  //   text: "V2 文档",
+  //   icon: "note",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);

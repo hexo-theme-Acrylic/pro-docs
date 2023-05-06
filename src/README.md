@@ -10,10 +10,8 @@ actions:
     link: /guide/get-started.html
     type: primary
 
-  - text: 仓库 🎉
+  - text: 仓库
     link: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic
-  - text: Q群 🐧
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=88yN0O7Lt-TP6wCmd4GFBdeE09JECPZa&authKey=u1VMxQLZMaQjE1axQvgsOinQ1bS6LnsRu23lKoCThA1TZgwqpVLb9ZqeBy8lOQRx&noverify=0&group_code=649565726                                                                                             
 
 features:
   - title: 基于 Hexo 开发
@@ -81,15 +79,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePres
 ---
 
 ## 像数1、2、3那样简单
-### 安装稳定版
+
 ```shell
 git clone -b main https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git themes/Acrylic
-```
-### 安装开发版(推荐)
-```shell
-git clone -b dev https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git themes/Acrylic
-```
-### 安装重构版(不推荐)
-```shell
-git clone -b dev_new https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git themes/Acrylic
 ```

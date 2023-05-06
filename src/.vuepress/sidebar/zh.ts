@@ -15,7 +15,13 @@ export const zhSidebar = sidebar({
       text: "内置页面",
       icon: "page",
       prefix: "guide/page",
-      children: "structure"
+      children:[          
+        "add.md",
+        "tac-add.md",
+        "link.md",
+        "essay.md",
+        "about.md"
+      ]
       // collapsible: true,
     },
   ],
