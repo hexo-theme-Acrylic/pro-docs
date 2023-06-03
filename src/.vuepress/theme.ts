@@ -6,15 +6,15 @@ export default hopeTheme({
   hostname: "https://acrylic.gtwxxh.cn",
 
   author: {
-    name: "Acrylic",
-    url: "https://acrylic.org.cn/",
+    name: "Gtwxxh",
+    url: "https://blog.gtwxxh.cn",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.png",
 
-  repo: "hexo-theme-Acrylic/Pro_docs_file",
+  repo: "hexo-theme-Acrylic/pro-docs",
 
   docsDir: "demo/src",
 

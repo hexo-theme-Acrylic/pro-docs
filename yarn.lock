@@ -4982,7 +4982,30 @@ vuepress-plugin-comment2@2.0.0-beta.206:
     vuepress-plugin-sass-palette "2.0.0-beta.206"
     vuepress-shared "2.0.0-beta.206"
 
-vuepress-plugin-components@2.0.0-beta.206, vuepress-plugin-components@^2.0.0-beta.206:
+vuepress-plugin-components@2.0.0-beta.206:
+  version "2.0.0-beta.206"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-components/-/vuepress-plugin-components-2.0.0-beta.206.tgz#d0dfb9b59b37be47a446c89734de98a0fc76fc58"
+  integrity sha512-xzZeh8K3BE6KCI97vAYPT1ZCEJ8c4pyD3lAXcuLU8y9gS/BvNPSHhRlyDlXY/FkSsqz5yKtm2OyZLU6b6IrgVA==
+  dependencies:
+    "@stackblitz/sdk" "^1.9.0"
+    "@vuepress/client" "2.0.0-beta.61"
+    "@vuepress/shared" "2.0.0-beta.61"
+    "@vuepress/utils" "2.0.0-beta.61"
+    "@vueuse/core" "^10.0.2"
+    artplayer "^4.6.2"
+    balloon-css "^1.2.0"
+    dashjs "^4.6.0"
+    hls.js "^1.4.0"
+    mpegts.js "^1.7.3"
+    plyr "^3.7.8"
+    qrcode "^1.5.1"
+    vue "^3.2.47"
+    vue-router "^4.1.6"
+    vuepress-plugin-reading-time2 "2.0.0-beta.206"
+    vuepress-plugin-sass-palette "2.0.0-beta.206"
+    vuepress-shared "2.0.0-beta.206"
+
+vuepress-plugin-components@^2.0.0-beta.206:
   version "2.0.0-beta.206"
   resolved "https://registry.npmjs.org/vuepress-plugin-components/-/vuepress-plugin-components-2.0.0-beta.206.tgz#d0dfb9b59b37be47a446c89734de98a0fc76fc58"
   integrity sha512-xzZeh8K3BE6KCI97vAYPT1ZCEJ8c4pyD3lAXcuLU8y9gS/BvNPSHhRlyDlXY/FkSsqz5yKtm2OyZLU6b6IrgVA==
