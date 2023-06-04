@@ -61,7 +61,7 @@ order: 3
 
 ## 不显示？
 
-那是由于没有添加`link_style`属性造成的。添加即可
+那是由于没有添加`flink_style`属性造成的。添加即可
 
 添加在每个分类中的`class_desc`下面，如：
 
@@ -70,7 +70,7 @@ order: 3
 ```diff
 class_name: 友情链接
   class_desc: 那些人，那些事
-+ link_style: xxx
++ flink_style: xxx
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-tw/
@@ -79,7 +79,7 @@ class_name: 友情链接
 
 class_name: 网站
   class_desc: 值得推荐的网站
-+ link_style: xxx
++ flink_style: xxx
   link_list:
     - name: Youtube
       link: https://www.youtube.com/

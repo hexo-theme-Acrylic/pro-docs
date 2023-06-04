@@ -12,6 +12,16 @@ export const zhSidebar = sidebar({
       // collapsible: true,
     },
     {
+      text: "Hexo配置",
+      icon: "launch",
+      prefix: "guide/hexo",
+      children:[          
+        "config.md",
+        "scaffolds.md",
+      ]
+      // collapsible: true,
+    },
+    {
       text: "内置页面",
       icon: "page",
       prefix: "guide/page",
@@ -20,7 +30,17 @@ export const zhSidebar = sidebar({
         "tac-add.md",
         "link.md",
         "essay.md",
-        "about.md"
+        "about.md",
+        "post.md",
+      ]
+      // collapsible: true,
+    },
+    {
+      text: "部分",
+      icon: "type",
+      prefix: "guide/part",
+      children:[          
+        "nav-side-console.md"
       ]
       // collapsible: true,
     },
