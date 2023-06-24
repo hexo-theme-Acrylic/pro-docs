@@ -1,4 +1,4 @@
-## 这是Hexo-Theme-Acrylic的文档
+## Hexo-Theme-Acrylic的文档
 正在开发中
 ## 如何参与
 1. clone
